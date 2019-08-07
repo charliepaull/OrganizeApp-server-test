@@ -1,0 +1,21 @@
+{
+  "name": "OrganizeApp-server-test",
+  "version": "1.0.0",
+  "description": "Coding challenge for the Organize App. Build a backend server with GET/POST reqs/res",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charliepaull/OrganizeApp-server-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charliepaull/OrganizeApp-server-test/issues"
+  },
+  "homepage": "https://github.com/charliepaull/OrganizeApp-server-test#readme"
+}
