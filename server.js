@@ -12,12 +12,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
+// GET request to the sql database
+app.get("/playersData", function(req, res){
 
-
-
-
-
-
+})
 
 // listener effectively starts out router
 app.listen(PORT, function() {

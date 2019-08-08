@@ -10,9 +10,5 @@ DROP TABLE IF EXISTS baseball_players;
 CREATE TABLE baseball_players (
     id int NOT NULL AUTO_INCREMENT,
     player_name VARCHAR(255) NOT NULL,
-    team VARCHAR(255),
-    batting_avg DECIMAL (5,3),
-    homeruns INT,
-    runs_bat_in INT,
     PRIMARY KEY (id)
 );
