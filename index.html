@@ -6,32 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Baseball Players</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./player.js"></script>
 </head>
 
 <body>
-    <form action="/players/api" method="POST">
-        <input type="text" class="form-control" name="player_name" placeholder="player name" id="enter_text">
+    <form method="POST">
+        <input type="text" class="form-control" name="player_name" placeholder="player name" id="player-name">
 
-        <input type="text" class="form-control" name="team" placeholder="player's team" id="enter_text">
-
-        <input type="text" class="form-control" name="batting_avg" placeholder="batting average" id="enter_text">
-
-        <input type="text" class="form-control" name="homeruns" placeholder="homeruns" id="enter_text">
-
-        <input type="text" class="form-control" name="runs_bat_in" placeholder="runs batted in" id="enter_text">
-
-        <button type="submit" class="submit-players">Submit to Database</button>
+        <button type="submit" id="submit-players">Submit to Database</button>
 
     </form>
 </body>
-<script>
-    // setting up an on-click function for submit
-    $(document).ready(function() {
-        $(".submit-players").on("submit", function(event) {
-            event.preventDefault();
-            console.log("hello I am a click!")
-        })
-    })
-</script>
 
 </html>

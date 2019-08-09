@@ -26,6 +26,8 @@ connection.connect(err => {
     }
   
     console.log("connected to the MySQL server");
+    // selectAll();
+    // insertPlayer();
   });
   
 
